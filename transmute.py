@@ -76,6 +76,7 @@ def main():
 	CONF_Debug = False
 	CONF_infile = "-"
 	CONF_leet = False
+	CONF_commonleet = False
 	CONF_capitalize = False
 	CONF_NumAppend = 0
 	CONF_NumPrepend = 0
@@ -109,7 +110,6 @@ def main():
 			cChg_AddSet_AddSymbols()
 		if o in ("-l"):
 			CONF_leet = True
-			CONF_commonleet = False
 		if o in ("-L"):
 			CONF_commonleet = True
 		if o in ("-p"):
