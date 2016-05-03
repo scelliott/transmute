@@ -184,10 +184,8 @@ def GoTransmute(origLine):
 		sys.stderr.write("...GoTransmute\n")
 	if(len(origLine)>0):
 		if(len(CONF_AddSet)>0):
-			print("[+] Edge Insert")
 			GoTransmuteEdgeInsert(origLine)
 		else:
-			print("[+] Caps")
 			GoTransmuteCaps(origLine)
 def GoTransmuteEdgeInsert(origLine):
 	global CONF_NumEdgeInsert
